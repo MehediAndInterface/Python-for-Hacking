@@ -1,9 +1,11 @@
 """
-Area of a Rectangle: Ask for the length and width of a rectangle and calculate its area.
+String Repetition: Ask the user for a word and a number, then print the word repeated that many times.
 """
-length = float(input("Please enter length of rectangle: "))
-width = float(input("Please enter width of rectangle: "))
+word = input("Enter a word: ")
+num = input("Enter a number: ")
 
-area = length * width
-print(f"Area of rectangle is: {area:.2f}")
-
+try:
+    repeat_num = int(num)
+    print(word * repeat_num)
+except ValueError:
+    print("Error: you did not enter a valid whole number.")
