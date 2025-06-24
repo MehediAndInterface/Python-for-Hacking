@@ -1,16 +1,9 @@
 """
-Simple Arithmetic:
-Ask the user for two numbers,
-then print their sum,
-difference,
-product,
-and quotient.
+Area of a Rectangle: Ask for the length and width of a rectangle and calculate its area.
 """
-num_1 = float(input("Please enter your 1st number: "))
-num_2 = float(input("Please enter your 2nd number: "))
+length = float(input("Please enter length of rectangle: "))
+width = float(input("Please enter width of rectangle: "))
 
-print(f"Sum: {num_1 + num_2}")
-print(f"Difference: {num_1 - num_2}")
-print(f"Product: {num_1 * num_2}")
-print(f"Quotient: {num_1 / num_2}")
+area = length * width
+print(f"Area of rectangle is: {area:.2f}")
 
