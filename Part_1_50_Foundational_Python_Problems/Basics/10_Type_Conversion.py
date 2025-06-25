@@ -1,13 +1,6 @@
 """
 Type Conversion: Ask the user for their age (as a string), convert it to an integer, and calculate the year they were born.
 """
-
-# age = int(input("Enter your age: "))
-# born_year = 2025 - age
-# print(f"You born in {born_year}")
-
-
-
 from datetime import date
 
 current_year = date.today().year
@@ -18,10 +11,3 @@ age_int = int(age_str)
 born_year = current_year - age_int
 
 print(f"You were born in approximately {born_year}.")
-
-
-
-
-
-
-
