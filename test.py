@@ -1,9 +1,14 @@
 """
-Countdown: Use a while loop to print a countdown from 10 to 1.
+Multiplication Table: Ask for a number and print its multiplication table up to 10.
+
+Product = Multiplicand × Multiplier
 """
-count = 10
 
-while count >= 1:
-    print(count)
+multiplication = int(input("Enter a number to see its multiplication table: "))
 
-    count -= 1
+print(f"--- (Multiplication Table for multiplicand) ---")
+
+for multiplier in range (1, 11):
+    product = multiplication * multiplier
+
+    print(f"{multiplication} x {multiplier} = {product}")
