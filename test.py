@@ -1,5 +1,8 @@
 """
-Access List Item: Print the third item from the fruit list.
+Modify a List: Change the second item in the list to a different fruit.
 """
 fruit = ["apple", "banana", "cherry", "mango", "papaya"]
-print(fruit[2])
+print(fruit)
+fruit[1] = "strawberry"
+print(fruit)
+
